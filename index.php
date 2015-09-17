@@ -34,9 +34,9 @@
             <table class="table table-striped">
                 <thead>
                   <tr>
-                    <th>N</th>
-                    <th>Просто число</th>
-                    <th>Брой срещания</th>
+                      <th>N</th>
+                      <th>Просто число</th>
+                      <th>Брой срещания</th>
                   </tr>
                 </thead>
                 <tbody>
