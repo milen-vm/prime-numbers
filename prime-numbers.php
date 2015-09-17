@@ -1,4 +1,5 @@
 <?php
+
 if (isset($_POST['submit'])) {
 	if (isset($_POST['count']) && isset($_POST['max'])) {
         $count = filter_var(trim($_POST['count']), FILTER_VALIDATE_INT);
@@ -28,8 +29,7 @@ if (isset($_POST['submit'])) {
     } else {
         $errorMessage = 'Невалидни данни!';
     }
-}
-    
+}  
 
 function isPrime($number) {
     $isNumberPrime = true;
